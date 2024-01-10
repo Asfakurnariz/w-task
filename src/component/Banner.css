@@ -1,0 +1,85 @@
+.Banner-section{
+    background-color: var(--backgroun-color);
+    width: 100vw;
+    height: auto;
+    padding: 60px 10%;
+    color: white;
+    margin-bottom: 40px;
+}
+.banner-details h3{
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.banner-details p{
+    line-height: 20px;
+    color: lightgray;
+}
+.spo-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    filter: grayscale(1);
+    margin-top: 20px;
+    /* width: 100px; */
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.spo-logo img{
+    width: 100px;
+    height: auto;
+}
+
+
+/* Banner Card Design CSS Code */
+.all-banner{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+.banner-card{
+    width: 280px;
+    height: auto;
+    background-color: rgb(26, 26, 26);
+    padding: 20px;
+    border-radius: 15px;
+}
+.banner-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    padding-bottom: 10px;
+}
+.banner-desc p{
+    text-align: start;
+    font-size: 14px;
+    color: lightgray;
+    padding-bottom: 20px;
+}
+.user{
+    display: flex;
+    
+}
+.user-details .user-name{
+    font-size: 14px;
+    font-weight: 500;
+}
+.user-details .user-tag{
+    font-size: 12px;
+    text-align: start;
+    color: lightgray;
+}
+.user-pic img{
+    width: 60px;
+    height: auto;
+}
+@media screen and (max-width:650) {
+    .spo-logo{
+        display: flex;
+        gap: 20px;
+    }
+}
